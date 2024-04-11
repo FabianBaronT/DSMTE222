@@ -54,9 +54,6 @@ def Gen_datos():
             imagen_gris = cv2.cvtColor(imagen_ruta, cv2.COLOR_BGR2GRAY)
             imagen_resized = cv2.resize(imagen_gris, (Ancho,Alto))
             data.append([imagen_resized, valor])
-            #print(imagen_nombre)
-            #cv2.imshow('sda',imagen_resized)
-            #print(valor)
             cv2.waitKey(0)
     rn.shuffle(data)
     x = []
