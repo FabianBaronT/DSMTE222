@@ -6,7 +6,7 @@ import tensorflow as tf
 import requests
 
 deteccion = cv2.createBackgroundSubtractorMOG2(history=400, varThreshold=50)#400, 50
-pred = tf.keras.models.load_model("MODELITO.h5")
+pred = tf.keras.models.load_model("ModeloFinal.h5")
 
 def leer_video(video_path, frame_queue):
     n = datetime.now() - timedelta(seconds=20)
