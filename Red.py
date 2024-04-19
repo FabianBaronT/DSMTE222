@@ -12,9 +12,9 @@ from Funciones import *
 gc.collect()
 # os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
-#filtros = [32, 64, 128]
-#densas = [128, 256, 512]
-#drop = [0, 0.2, 0.5]
+filtros = [32, 64, 128]
+densas = [128, 256, 512]
+drop = [0, 0.2, 0.5]
 filtros = [128]
 densas = [128]
 drop = [0.5]
