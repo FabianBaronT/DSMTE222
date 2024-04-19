@@ -15,9 +15,7 @@ gc.collect()
 filtros = [32, 64, 128]
 densas = [128, 256, 512]
 drop = [0, 0.2, 0.5]
-filtros = [128]
-densas = [128]
-drop = [0.5]
+
 
 x = pickle.load(open("x.pickle","rb"))
 y = pickle.load(open("y.pickle","rb"))
